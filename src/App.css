@@ -1,0 +1,34 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  background-color: #000283 !important;
+}
+
+.navbar-toggler {
+  border-color: transparent !important;
+}
+
+.nav-link {
+  color: #ffb437 !important;
+}
+
+.text-color-orange {
+  color: #ffb437;
+}
+
+.table-responsive {
+  height: 85vh;
+  overflow-y: scroll;
+}
+
+footer {
+  color: #fff;
+  background-color: #000283;
+}
+th {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  }
