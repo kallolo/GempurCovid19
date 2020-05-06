@@ -7,7 +7,7 @@ const Navigationbar = () => {
     <Navbar variant="dark" expand="lg" sticky="top">
       <Container>
         <Link to="/" className="navbar-brand">
-          Info Covid19
+          <b>GEMPUR</b>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

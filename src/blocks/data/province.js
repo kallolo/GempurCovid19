@@ -31,7 +31,8 @@ const DataProvince = () => {
             </tr>
           </thead>
           <tbody>
-            {korban.map((item, index) => (
+            {korban==null ? 'data kosong' :
+            korban.map((item, index) => (
               <tr key={item.attributes.FID}>
                 <td>{index + 1}</td>
                 <td>{item.attributes.Provinsi}</td>
