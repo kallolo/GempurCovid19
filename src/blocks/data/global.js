@@ -23,21 +23,21 @@ const DataGlobal = () => {
 
   useEffect(() => {
     axios
-      .get("https://api.kawalcorona.com/sembuh/")
+      .get("https://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/sembuh/")
       .then(res => setSembuh(res.data))
       .catch(console.error);
   }, []);
 
   useEffect(() => {
     axios
-      .get("https://api.kawalcorona.com/positif/")
+      .get("https://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/positif/")
       .then(res => setPositif(res.data))
       .catch(console.error);
   }, []);
 
   useEffect(() => {
     axios
-      .get("https://api.kawalcorona.com/meninggal/")
+      .get("https://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/meninggal/")
       .then(res => setMeninggal(res.data))
       .catch(console.error);
   }, []);

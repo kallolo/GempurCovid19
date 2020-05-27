@@ -7,7 +7,7 @@ const DataProvince = () => {
 
   useEffect(() => {
     axios
-      .get("https://api.kawalcorona.com/indonesia/provinsi/")
+      .get("https://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/indonesia/provinsi/")
       .then(res => setKorban(res.data))
       .catch(console.error);
   }, []);

@@ -11,7 +11,7 @@ const DataIndonesia = () => {
 
   useEffect(() => {
     axios
-      .get("https://api.kawalcorona.com/indonesia/")
+      .get("https://cors-anywhere.herokuapp.com/https://api.kawalcorona.com/indonesia/")
       .then(res => setKorban(res.data[0]))
       .catch(console.error);
   }, []);

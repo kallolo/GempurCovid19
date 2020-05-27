@@ -4,11 +4,11 @@ const Footer = () => {
   return (
     <footer className="py-4">
       <p className="mb-0 text-center">
-        Sumber Data{" "}
+        Dibuat dengan{" "}
         <span role="img" aria-label="love">
           ❤️
         </span>{" "}
-        by <a target="_blank" href="https://kawalcorona.com/">kawalkorona.com</a>
+        Oleh <a target="_blank" href="https://gempur.kualaenok.com/">Relawan Gempur Covid-19</a>  Kecamatan Tanah Merah Kabupaten Indragiri Hilir
       </p>
     </footer>
   );

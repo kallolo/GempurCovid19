@@ -79,6 +79,9 @@ const About = () => {
         </h2>
         <ul>
           <li>
+          <a href="https://covid19.inhilkab.go.id/">Gugus Tugas Covid-19 INHIL</a>
+          </li>
+          <li>
             <a href="https://kawalcorona.com/">Kawal corona</a>
           </li>
         </ul>
