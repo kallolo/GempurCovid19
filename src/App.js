@@ -8,6 +8,7 @@ import Inhil from "pages/Inhil.js";
 import Riau from "pages/Riau.js";
 import Indonesia from "pages/Indonesia.js";
 import Dunia from "pages/Dunia.js";
+import withPageView from "withPageView";
 
 
 import "./App.css";
@@ -16,13 +17,13 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/data/tanahmerah" component={TanahMerah} />
-        <Route path="/data/inhil" component={Inhil} />
-        <Route path="/data/riau" component={Riau} />
-        <Route path="/data/indonesia" component={Indonesia} />
-        <Route path="/data/dunia" component={Dunia} />
+        <Route exact path="/" component={withPageView(Home)} />
+        <Route path="/about" component={withPageView(About)} />
+        <Route path="/data/tanahmerah" component={withPageView(TanahMerah)} />
+        <Route path="/data/inhil" component={withPageView(Inhil)} />
+        <Route path="/data/riau" component={withPageView(Riau)} />
+        <Route path="/data/indonesia" component={withPageView(Indonesia)} />
+        <Route path="/data/dunia" component={withPageView(Dunia)} />
       </Switch>
     </Router>
   );
